@@ -1,0 +1,16 @@
+.menu {
+  display: none;
+}
+.menu-content {
+  height: 150px;
+  overflow-y: scroll;
+  color: var(--btn-color);
+}
+
+.menu.is-open {
+  display: block;
+}
+
+.menu-content a {
+  color: var(--btn-color);
+}
